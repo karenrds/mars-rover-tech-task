@@ -6,8 +6,8 @@ Rovers position is represented by X coordinate and Y coordinate.
 N, S, E, W are North, South, East and West positions the rover is facing
 
 To move the Rover around the plateau a set of letter are sent in a form of string.
-L - turns the Rover 90degree left without moving the rovers current coordinate point.
-R - turns the Rover 90degree Right without moving the rovers currenr coordinate point.
+L - turns the Rover 90degree left without moving the Rovers current coordinate point.
+R - turns the Rover 90degree Right without moving the Rovers current coordinate point.
 M - moves the Rover ahead maintaining the same position
 
 First line of input sets the Rovers position represented by integers x and y coordinates and string position
