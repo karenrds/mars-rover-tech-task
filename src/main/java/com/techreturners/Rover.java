@@ -21,7 +21,7 @@ public class Rover {
                     turnRight();
                 } else if (direction.charAt(i) == 'M') {
                     if (validatePosition(position)) {
-                        errorMessage += "Out of position";
+                        errorMessage += "Out of bounds";
                         break;
                     }
                     move();

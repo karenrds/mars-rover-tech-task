@@ -14,18 +14,18 @@ public class RoverTest {
         assertEquals("5 1 E", roverSecondPosition.setDirection("MMRMMRMRRM"));
 
         Rover roverThirdPosition = new Rover(3, 3, "E");
-        assertEquals("Out of position", roverSecondPosition.setDirection("MMM"));
+        assertEquals("Out of bounds", roverSecondPosition.setDirection("MMM"));
 
         Rover roverFourthPosition = new Rover(0, 0, "E");
-        assertEquals("Out of position", roverSecondPosition.setDirection("MMMMMM"));
+        assertEquals("Out of bounds", roverSecondPosition.setDirection("MMMMMM"));
 
         Rover roverPosition5 = new Rover(5, 5, "W");
-        assertEquals("Out of position", roverSecondPosition.setDirection("MMMMMM"));
+        assertEquals("Out of bounds", roverSecondPosition.setDirection("MMMMMM"));
 
         Rover roverPosition6 = new Rover(0, 0, "N");
-        assertEquals("Out of position", roverSecondPosition.setDirection("MMMMMM"));
+        assertEquals("Out of bounds", roverSecondPosition.setDirection("MMMMMM"));
 
         Rover roverPosition7 = new Rover(5, 5, "S");
-        assertEquals("Out of position", roverSecondPosition.setDirection("MMMMMM"));
+        assertEquals("Out of bounds", roverSecondPosition.setDirection("MMMMMM"));
     }
 }
